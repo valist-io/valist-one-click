@@ -1,0 +1,31 @@
+{
+  "name": "github-auth",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@mantine/core": "^4.2.12",
+    "@mantine/hooks": "^4.2.12",
+    "@octokit/core": "^4.0.4",
+    "axios": "^0.27.2",
+    "libsodium-wrappers": "^0.7.10",
+    "next": "12.2.2",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "tweetsodium": "^0.0.6"
+  },
+  "devDependencies": {
+    "@types/libsodium-wrappers": "^0.7.10",
+    "@types/node": "18.0.5",
+    "@types/react": "18.0.15",
+    "@types/react-dom": "18.0.6",
+    "eslint": "8.20.0",
+    "eslint-config-next": "12.2.2",
+    "typescript": "4.7.4"
+  }
+}
